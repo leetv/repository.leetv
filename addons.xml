@@ -1,0 +1,75 @@
+<addons><addon id="plugin.program.LeeTVwizard" name="[COLOR teal][B]LeeTV[/B][/COLOR] [COLOR white]Wizard[/COLOR]" version="1.0.0" provider-name="LeeTV">  <requires>    <import addon="xbmc.python" version="2.1.0"/>  </requires>  <extension point="xbmc.python.pluginsource" library="default.py">    <provides>executable</provides>  </extension>  <extension point="xbmc.service" library="startup.py" start="startup" />  <extension point="xbmc.addon.metadata">    <summary lang="en">[COLOR teal][B]LeeTV[/B][/COLOR] [COLOR white]Wizard[/COLOR]</summary>    <description lang="en">Official wizard of LeeTV. Please follow @LeeTV55 on twitter for updates or visit www.endlessflix.co.uk</description>    <platform>all</platform>  </extension></addon>
+<addon id="plugin.video.infowarstv"
+	name="[COLOR white][B]INFO WARS TV[/B][/COLOR]"
+	version="1.0"
+	provider-name="[COLOR orange]LeeTV[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Info Wars TV By LeeTV</summary>
+    <description lang="en">Get the latest Info Wars news directly from the official Alex Jones Youtube Channel.</description>
+    <platform>all</platform>
+    <website>http://www.endlessflix.co.uk</website>
+  </extension>
+</addon>
+<addon id="plugin.video.LeeTVTube" version="1.2" name="[COLOR orange][B]LeeTV[/B][/COLOR] TUBE" provider-name="LeeTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Lee TV</summary>
+    <description lang="en">Official YouTube channel for LeeTV [COLOR orange[B]PLZ SUBSCIBE at www.youtube.com/LeeTVOfficial :)[/B][/COLOR]</description>
+    <platform>all</platform>
+    <website>http://www.endlessflix.co.uk</website>
+  </extension>
+</addon>
+<addon id="plugin.video.pilkotv"
+	name="[COLOR orange][B]PILKO-TV[/B][/COLOR]"
+	version="1.1"
+	provider-name="[COLOR orange]LeeTV[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Pilko-TV - Round Headed Twonk!</summary>
+    <description lang="en">Collection of shows from The Ricky Gervais Show by LeeTV.</description>
+    <platform>all</platform>
+    <website>http://www.endlessflix.co.uk</website>
+  </extension>
+</addon>
+<addon id="plugin.video.tranceclassixtv"
+	name="[COLOR white][B]TRANCE CLASSIX[COLOR orange]TV[/COLOR][/B][/COLOR]"
+	version="1.0"
+	provider-name="[COLOR orange]LeeTV[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Trance ClassixTV By LeeTV</summary>
+    <description lang="en">All the best Trance Classix in one addon!.</description>
+    <platform>all</platform>
+    <website>http://www.endlessflix.co.uk</website>
+  </extension>
+</addon>
+</addons>
